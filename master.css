@@ -5,10 +5,11 @@
 }
 
 
-nav {
+.container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
+
 .revolut-logo img {
   height: 50px;
 }
@@ -22,4 +23,9 @@ ul li {
 
 li a {
   list-style: none;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
 }
