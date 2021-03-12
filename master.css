@@ -6,7 +6,8 @@
 
 
 nav {
-  margin: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 .revolut-logo img {
   height: 50px;
