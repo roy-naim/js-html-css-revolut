@@ -5,11 +5,10 @@
 }
 
 
-.container {
+nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
-
 .revolut-logo img {
   height: 50px;
 }
