@@ -4,27 +4,124 @@
   box-sizing: border-box;
 }
 
+.dropDown {
+  margin: 0 20px;
+}
+.dropDownContent {
+  position:absolute;
+  display: none;
+  /* width: 150px; */
+  margin-left: -50px;
+}
+
+.dropDownContent.active {
+  display: block;
+}
+
+.dropDownInner {
+  display: flex;
+  align-items: flex-start;
+
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 0.5em;
+  margin-top: .7em;
+  box-shadow: 0px 0px 10px gray;
+}
+
 
 nav {
   display: flex;
   justify-content: space-around;
+  margin-top: 20px;
+
+  font-family: 'Roboto', sans-serif;
+  color: #a0a1a3;
 }
 .revolut-logo img {
   height: 50px;
 }
 
-ul li {
+
+nav * {
+  display: flex;
+  align-items: center;
+}
+
+li {
   list-style: none;
   display: inline-block;
   vertical-align: middle;
-  padding: 0 10px;
+  padding-right: 10px;
+}
+
+li a:hover{
+  color: black;
+}
+
+.left li a:focus {
+  color: black;
+  font-weight: bold;
 }
 
 li a {
   list-style: none;
+  text-decoration: none;
+  color: #a0a1a3;
 }
 
 .right {
   display: flex;
   justify-content: space-between;
+}
+
+.dropDownInner ul {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.dropDownInner ul li {
+  padding: 10px 0;
+}
+
+.list {
+  display: inline-table;
+  padding-right: 70px;
+}
+
+.list ul li {
+  margin-left: 0;
+  padding: 10px 0;
+  list-style: none;
+}
+
+.list h4 {
+  color: #ced5db;
+}
+
+#sign {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#sign:hover {
+  background-color: #d3d3d3;
+}
+#app {
+  background-color: black;
+  color: #fff;
+  font-weight: bolder;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#app:hover {
+  background-color: #494949;
 }

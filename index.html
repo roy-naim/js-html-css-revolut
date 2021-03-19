@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./master.css">
   <title>Revolut</title>
 </head>
@@ -29,20 +31,110 @@
     <div class="right">
       <div class="list-drop">
         <ul>
-          <li>Features</li>
-          <li>Plans</li>
-          <li>About Us</li>
-          <li>Help</li>
+          <li class="dropDown">
+            <a href="#">Features</a>
+            <div class="dropDownContent">
+              <div class="dropDownInner">
+                <div class="list">
+                  <h4>Account</h4>
+                    <ul>
+                      <li><a href="#">Budget & Analytics</a></li>
+                      <li><a href="#">Cards</a></li>
+                      <li><a href="#">Junior account</a></li>
+                      <li><a href="#">Pockets</a></li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                  <h4>Wealth</h4>
+                    <ul>
+                      <li><a href="#">Crypto</a></li>
+                      <li><a href="#">Commodities</a></li>
+                      <li><a href="#">Vaults</a></li>
+                      <li>Saving Vaults</li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                  <h4>Payments</h4>
+                    <ul>
+                      <li><a href="#">Money Transfers</a></li>
+                      <li><a href="#">Group bills</a></li>
+                      <li><a href="#">Subscriptions</a></li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                  <h4>Extra</h4>
+                    <ul>
+                      <li><a href="#">Donations</a></li>
+                      <li><a href="#">Overseas insurance</a></li>
+                      <li><a href="#">Device insurance</a></li>
+                      <li><a href="#">Safety</a></li>
+                      <li>Rewards</li>
+                    </ul>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <li class="dropDown">
+            <a href="#">Plans</a>
+            <div class="dropDownContent">
+              <div class="dropDownInner">
+                <ul>
+                  <li><a href="#">Standard</a></li>
+                  <li><a href="#">Plus</a></li>
+                  <li><a href="#">Premium</a></li>
+                  <li><a href="#">Metal</a></li>
+                  <li><a href="#">Compare plans</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="dropDown">
+            <a href="#">About Us</a>
+            <div class="dropDownContent">
+              <div class="dropDownInner">
+                <ul>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Leadership</a></li>
+                  <li><a href="#">Newsroom</a></li>
+                  <li><a href="#">Affiliates</a></li>
+                  <li><a href="#">Influencers</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Culture</a></li>
+                  <li><a href="#">Diversity & Inclusion</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="dropDown">
+            <a href="#">Help</a>
+            <div class="dropDownContent">
+              <div class="dropDownInner">
+                <ul>
+                  <li><a href="#">Help centre</a></li>
+                  <li><a href="#">Community</a></li>
+                  <li><a href="#">Security</a></li>
+                  <li><a href="#">System Status</a></li>
+                  <li><a href="#">Developer APIs</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
         </ul>
       </div>
 
       <div class="buttons">
         <ul>
           <li>
-            <button type="button" name="button">Sign In</button>
+            <button id="sign" type="button" name="button">Sign In</button>
           </li>
           <li>
-            <button type="button" name="button">Get The App</button>
+            <button id="app" type="button" name="button">Get The App</button>
           </li>
         </ul>
       </div>
@@ -56,6 +148,8 @@
 <footer>
 
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="./main.js" charset="utf-8"></script>
 </body>
 </html>
